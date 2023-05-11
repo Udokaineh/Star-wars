@@ -9,3 +9,67 @@ body {
     box-sizing: border-box;
     padding: 0;
 }
+.app-container{
+    width:86%;
+    margin:auto;
+}
+
+.logo {
+    width: 100%;
+    text-align: center;
+    padding: 24px 0;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-auto-rows: minmax(100px, auto);
+    column-gap: 1.625rem;
+    color: white;
+}
+
+.box-item {
+    /* background-image: url("https://finmavis.github.io/swapi-task/static/media/bg-card-1.0c96fd00.png"); */
+    border: 1px solid black;
+    margin-bottom: 26px;
+    padding: 0 18px;
+    border-radius: 8px;
+}
+
+.box-item:hover {
+    -webkit-box-shadow: 0 0 5px 5px #00698B;
+    -moz-box-shadow: 0 0 5px 5px #00698B;
+    box-shadow: 0 0 5px 5px #00698B;
+    opacity: 100%;
+}
+.box-item h2 {
+    margin-bottom: 0;
+}
+.date {
+    font-size: 14px;
+    margin-top: 2px;
+    color: rgb(205, 205, 205);
+}
+.crawl p {
+    letter-spacing: 0.2px;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 6;
+    -webkit-box-orient: vertical;
+    font-weight: bold;
+}
+
+.line {
+    background-color: #912D30;
+    margin-top: 30px;
+    width: 100%;
+    height: 2px;
+}
+
+.button a {
+    text-decoration: none;
+    color: #FFE754;
+    font-weight: bold;
+    font-size: 14px;
+}
+

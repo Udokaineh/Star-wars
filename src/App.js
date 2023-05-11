@@ -1,10 +1,10 @@
-import logo from './logo.svg';
 import './App.css';
+import Container from "./Container"
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      
+    <div>
+      <Container />
     </div>
   );
 }
